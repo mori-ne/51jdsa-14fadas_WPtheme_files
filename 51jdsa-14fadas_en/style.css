@@ -1,0 +1,1107 @@
+@charset "UTF-8";
+
+/*
+Theme Name: 第51回 歯科麻酔学会（英語版）
+Version: 1.0
+Author: 福琉印刷
+ */
+
+
+
+/*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+/* Reset box-model and set borders */
+/* ============================================ */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+}
+
+/* Document */
+/* ============================================ */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Remove gray overlay on links for iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-tap-highlight-color: transparent;
+  /* 3*/
+}
+
+/* Sections */
+/* ============================================ */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/* Vertical rhythm */
+/* ============================================ */
+p,
+table,
+blockquote,
+address,
+pre,
+iframe,
+form,
+figure,
+dl {
+  margin: 0;
+}
+
+/* Headings */
+/* ============================================ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* Lists (enumeration) */
+/* ============================================ */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Lists (definition) */
+/* ============================================ */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/* Grouping content */
+/* ============================================ */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+  border-top-width: 1px;
+  margin: 0;
+  clear: both;
+  color: inherit;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
+}
+
+address {
+  font-style: inherit;
+}
+
+/* Text-level semantics */
+/* ============================================ */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Replaced content */
+/* ============================================ */
+/**
+ * Prevent vertical alignment issues.
+ */
+svg,
+img,
+embed,
+object,
+iframe {
+  vertical-align: bottom;
+}
+
+/* Forms */
+/* ============================================ */
+/**
+ * Reset form fields to make them styleable.
+ * 1. Make form elements stylable across systems iOS especially.
+ * 2. Inherit text-transform from parent.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-appearance: none;
+  /* 1 */
+  -moz-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  /* 2 */
+}
+
+/**
+ * Reset radio and checkbox appearance to preserve their look in iOS.
+ */
+[type=checkbox] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+}
+
+[type=radio] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/**
+ * Correct cursors for clickable elements.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  cursor: pointer;
+}
+
+button:disabled,
+[type=button]:disabled,
+[type=reset]:disabled,
+[type=submit]:disabled {
+  cursor: default;
+}
+
+/**
+ * Improve outlines for Firefox and unify style with input elements & buttons.
+ */
+:-moz-focusring {
+  outline: auto;
+}
+
+select:disabled {
+  opacity: inherit;
+}
+
+/**
+ * Remove padding
+ */
+option {
+  padding: 0;
+}
+
+/**
+ * Reset to invisible
+ */
+fieldset {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the outline style in Safari.
+ */
+[type=search] {
+  outline-offset: -2px;
+  /* 1 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Fix font inheritance.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/**
+ * Clickable labels
+ */
+label[for] {
+  cursor: pointer;
+}
+
+/* Interactive */
+/* ============================================ */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/*
+ * Remove outline for editable content.
+ */
+[contenteditable]:focus {
+  outline: auto;
+}
+
+/* Tables */
+/* ============================================ */
+/**
+1. Correct table border color inheritance in all Chrome and Safari.
+*/
+table {
+  border-color: inherit;
+  /* 1 */
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+}
+
+td,
+th {
+  vertical-align: top;
+  padding: 0;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+/*---------------------------- ベースカラー ---------------------------- */
+/*---------------------------- ベースリンクカラー ---------------------- */
+.sidebar {
+  width: 300px;
+  background: #0a4682;
+}
+
+.sidebar .bunnerarea {
+  padding: 20px;
+}
+
+.sidebar .global_nav {
+  padding: 0 10px 10px 10px;
+}
+
+.sidebar .global_nav ul {
+  border-top: 2px solid #fff;
+  padding: 10px 0 0 0;
+}
+
+.sidebar .global_nav ul li {
+  margin: 0 0 10px 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+/*--------------------------------- メニューアイコンクラス----------------------------*/
+/*--------------------------------- メニューアイコンクラスここまで----------------------------*/
+
+.sidebar .global_nav ul li a {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  width: 280px;
+  height: 50px;
+  color: #fff;
+  padding: 0 0 0 60px;
+  transition: all 0.2s;
+  background-image: url(img/menu_static.png);
+  position: relative;
+}
+
+.sidebar .global_nav ul li a:hover {
+  color: #333;
+  transition: all 0.2s;
+  opacity: 1;
+  border-radius: 4px;
+  background-image: url(img/menu_hover.png);
+}
+
+.sidebar .global_nav ul li .top {
+  font-weight: bold;
+}
+
+.sidebar .global_nav ul li.top:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_01.png) 1x, url(img/menu_ico_01@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_01.png) 1x, url(img/menu_ico_01@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.top:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_01_hover.png) 1x, url(img/menu_ico_01_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_01_hover.png) 1x, url(img/menu_ico_01_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.greeting:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_02.png) 1x, url(img/menu_ico_02@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_02.png) 1x, url(img/menu_ico_02@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.greeting:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_02_hover.png) 1x, url(img/menu_ico_02_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_02_hover.png) 1x, url(img/menu_ico_02_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.about:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_03.png) 1x, url(img/menu_ico_03@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_03.png) 1x, url(img/menu_ico_03@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.about:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_03_hover.png) 1x, url(img/menu_ico_03_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_03_hover.png) 1x, url(img/menu_ico_03_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.program:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_04.png) 1x, url(img/menu_ico_04@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_04.png) 1x, url(img/menu_ico_04@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.program:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_04_hover.png) 1x, url(img/menu_ico_04_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_04_hover.png) 1x, url(img/menu_ico_04_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.abstracts:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_05.png) 1x, url(img/menu_ico_05@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_05.png) 1x, url(img/menu_ico_05@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.abstracts:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_05_hover.png) 1x, url(img/menu_ico_05_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_05_hover.png) 1x, url(img/menu_ico_05_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.adpted:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_06.png) 1x, url(img/menu_ico_06@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_06.png) 1x, url(img/menu_ico_06@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.adpted:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_06_hover.png) 1x, url(img/menu_ico_06_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_06_hover.png) 1x, url(img/menu_ico_06_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.forpersonandspeakers:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_07.png) 1x, url(img/menu_ico_07@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_07.png) 1x, url(img/menu_ico_07@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.forpersonandspeakers:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_07_hover.png) 1x, url(img/menu_ico_07_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_07_hover.png) 1x, url(img/menu_ico_07_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.register:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_08.png) 1x, url(img/menu_ico_08@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_08.png) 1x, url(img/menu_ico_08@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.register:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_08_hover.png) 1x, url(img/menu_ico_08_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_08_hover.png) 1x, url(img/menu_ico_08_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.forparticipant:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_09.png) 1x, url(img/menu_ico_09@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_09.png) 1x, url(img/menu_ico_09@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.forparticipant:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_09_hover.png) 1x, url(img/menu_ico_09_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_09_hover.png) 1x, url(img/menu_ico_09_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.units:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_10.png) 1x, url(img/menu_ico_10@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_10.png) 1x, url(img/menu_ico_10@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.units:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_10_hover.png) 1x, url(img/menu_ico_10_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_10_hover.png) 1x, url(img/menu_ico_10_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.information:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_11.png) 1x, url(img/menu_ico_11@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_11.png) 1x, url(img/menu_ico_11@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.information:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_11_hover.png) 1x, url(img/menu_ico_11_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_11_hover.png) 1x, url(img/menu_ico_11_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.access:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_12.png) 1x, url(img/menu_ico_12@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_12.png) 1x, url(img/menu_ico_12@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.access:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_12_hover.png) 1x, url(img/menu_ico_12_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_12_hover.png) 1x, url(img/menu_ico_12_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.nursery:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_13.png) 1x, url(img/menu_ico_13@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_13.png) 1x, url(img/menu_ico_13@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.nursery:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_13_hover.png) 1x, url(img/menu_ico_13_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_13_hover.png) 1x, url(img/menu_ico_13_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.sponsors:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_14.png) 1x, url(img/menu_ico_14@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_14.png) 1x, url(img/menu_ico_14@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.sponsors:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_14_hover.png) 1x, url(img/menu_ico_14_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_14_hover.png) 1x, url(img/menu_ico_14_hover@2x.png) 2x);
+}
+
+.sidebar .global_nav ul li.links:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background-image: -webkit-image-set(url(img/menu_ico_15.png) 1x, url(img/menu_ico_15@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_15.png) 1x, url(img/menu_ico_15@2x.png) 2x);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sidebar .global_nav ul li.links:hover::before {
+  background-image: -webkit-image-set(url(img/menu_ico_15_hover.png) 1x, url(img/menu_ico_15_hover@2x.png) 2x);
+  background-image: image-set(url(img/menu_ico_15_hover.png) 1x, url(img/menu_ico_15_hover@2x.png) 2x);
+}
+
+.sidebar .jimukyoku {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  margin: 0 0 25px 0;
+}
+
+.sidebar .jimukyoku h2 {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1.25em;
+  font-size: 18px;
+  width: 280px;
+  height: 90px;
+  margin: 0 auto;
+  background-image: url(img/jimukyoku_menu.png);
+}
+
+.sidebar .jimukyoku .h2en {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1.25em;
+  font-size: 15px;
+  width: 280px;
+  height: 90px;
+  margin: 0 auto;
+  background-image: url(img/jimukyoku_menu.png);
+}
+
+.sidebar .jimukyoku p {
+  padding: 0 20px 20px 20px;
+  font-size: 11px;
+  color: #fff;
+  line-height: 19px;
+}
+
+.sidebar .jimukyoku p a {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.sidebar .qrarea {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar .qrarea h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-indent: 0.75em;
+  font-size: 18px;
+  width: 260px;
+  margin: 0 auto;
+  height: 52px;
+  background: url(img/nav_ttlbar.png);
+  margin: 0 0 20px 0;
+}
+
+.sidebar .qrarea img {
+  width: 120px;
+}
+
+.sidebar .bunnerarea_bottom {
+  padding: 20px;
+}
+
+.sidebar .bunnerarea_bottom div {
+  margin: 0 0 15px 0;
+}
+
+.sidebar .bunnerarea_bottom div img {
+  margin-bottom: 20px;
+}
+
+.sidebar .bunnerarea_bottom div img:last-child {
+  margin-bottom: 0;
+}
+
+/*---------------------------- ベースカラー ---------------------------- */
+/*---------------------------- ベースリンクカラー ---------------------- */
+.information h3 {
+  font-weight: 700;
+  font-family: "Source Serif Pro", "Hiragino Sans W3", serif;
+  letter-spacing: -2px;
+  font-size: 18px;
+  color: #b60005;
+  border-bottom: 3px solid #b60005;
+}
+
+.information .h3en {
+  letter-spacing: 0.05em;
+}
+
+.information .info_area {
+  background-color: #fff;
+  height: 130px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 15px;
+}
+
+.information .info_area ul li {
+  font-size: 14px;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  position: relative;
+  text-indent: 1em;
+  vertical-align: middle;
+  border-bottom: 1px solid #eee;
+  padding: 4px 0;
+  margin: 0 0 4px 0;
+}
+
+.information .info_area ul li:before {
+  text-indent: -0.2em;
+  position: absolute;
+  content: "◆";
+  top: 4px;
+  left: 0;
+  font-size: 12px;
+  color: #b60005;
+  width: 10px;
+  height: 10px;
+}
+
+/*---------------------------- ベースカラー ---------------------------- */
+/*---------------------------- ベースリンクカラー ---------------------- */
+/*---------------------------- リンクホバー ---------------------- */
+a {
+  color: #333333;
+  transition: all 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+/*---------------------------- レイアウトクラス ------------------------- */
+body {
+  font-family: "Source Serif Pro", "Hiragino Sans W3", serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header .inner a {
+  display: block;
+}
+
+.header .inner a img {
+  width: 1000px;
+  height: 160px;
+}
+
+.contents_wrap {
+  background-image: url(img/bg_paper.jpg);
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
+.contents {
+  background-image: url(img/bg_building.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  margin: 0;
+}
+
+.contents .inner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.contents .inner .main {
+  width: 700px;
+  background-color: #fff;
+  background-image: url(img/main_bg.jpg);
+  padding: 20px;
+  font-family: "Arial", "メイリオ";
+}
+
+.contents .inner .main .main_img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 0 0 20px 0;
+}
+
+.contents .inner .main .main_article {
+  background: #fff;
+  min-height: 100%;
+  padding: 60px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contents .inner .main .main_article h2 {
+  font-family: "Source Serif Pro", "Hiragino Sans W3", serif;
+  font-weight: 700;
+  border-bottom: 2px solid #0a4682;
+  -o-border-image: linear-gradient(to right, #0a4682 0%, #8fccf5 100%);
+  border-image: linear-gradient(to right, #0a4682 0%, #8fccf5 100%);
+  border-image-slice: 1;
+  font-size: 26px;
+  margin: 0 0 50px 0;
+}
+
+.contents .inner .main .main_article .profile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+  margin: 0 0 50px 0;
+}
+
+.contents .inner .main .main_article .profile_txt {
+  text-align: right;
+  margin: 0 30px 0 0;
+  padding: 0 0 30px 0;
+}
+
+.contents .inner .main .main_article .profile_txt .name {
+  font-size: 22px;
+  margin: 0 0 0 15px;
+}
+
+.contents .inner .main .main_article .profile_txt .tx_small {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.contents .inner .main .main_article .greeting p {
+  text-align: justify;
+  text-indent: 1em;
+}
+
+.contents_bottom_wrap {
+  position: relative;
+  height: 30px;
+  margin: 0 auto;
+  background: url(img/bg_paper_repeat_bottom.jpg);
+  margin-bottom: 30px;
+}
+
+.contents_bottom {
+  position: relative;
+  width: 1000px;
+  height: 30px;
+  background: url(img/main_bg.jpg);
+  margin: 0 auto 30px auto;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.contents_bottom:before {
+  content: "";
+  width: 300px;
+  height: 30px;
+  background: #0a4682;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+/*---------------------------- スライダー ---------------------------- */
+.slider {
+  width: 100%;
+  height: 116px;
+  background-image: url(img/footer_scroll@2x.png);
+  background-repeat: repeat-x;
+  background-size: 2050px auto;
+  background-position: center;
+  margin: 0 0 20px 0;
+  -webkit-animation: bgloop 40s linear infinite;
+  animation: bgloop 40s linear infinite;
+}
+
+@-webkit-keyframes bgloop {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -2050px 0;
+  }
+}
+
+@keyframes bgloop {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -2050px 0;
+  }
+}
+
+/*---------------------------- フッター ---------------------------- */
+.footer {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  height: 30px;
+  color: #b60005;
+  background-image: url(img/footer_red@2x.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 1200px auto;
+  text-align: center;
+}
+
+.footer span {
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+#pagetop {
+  position: fixed;
+  z-index: 9998;
+}
+
+#pagetop a {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  background: #0a4682;
+  letter-spacing: 1px;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  z-index: 9999;
+}
+
+/*# sourceMappingURL=style.css.map */
