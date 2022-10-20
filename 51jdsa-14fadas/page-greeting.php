@@ -43,7 +43,7 @@
                             <!---------------------------------------------------- 記事内容 ---------------------------------------------------->
                             <!----------------------------------------------------------------------------------------------------------------->
 
-                            <div class="profile">
+                            <!-- <div class="profile">
                                 <div class="profile_txt">
                                     <p class="tx_small">
                                         第51回日本歯科麻酔学会総会・学術集会
@@ -56,8 +56,8 @@
                                 <div class="profile_img">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/profile_img.jpg" alt="鮎瀬 卓郎" width="160" height="200">
                                 </div>
+                            </div> -->
 
-                            </div>
                             <div class="greeting">
                                 <p>
                                     謹啓　時下ますますご清栄のこととお慶び申し上げます。</p>
@@ -95,6 +95,15 @@
                                 </p>
                                 <p style="text-align: right;">
                                     2022年3月吉日
+                                </p>
+                                <br>
+                                <p style="text-align: right; font-size:14px">
+                                    第51回日本歯科麻酔学会総会・学術集会<br>
+                                    第14回アジア歯科麻酔学会連合学術大会（14th FADAS）
+                                </p>
+                                <p style="text-align: right;">
+
+                                    <span style="font-size: 14px;">会長</span>　<span style="font-size: 20px;">鮎瀬　卓郎</span>
                                 </p>
                             </div>
 
