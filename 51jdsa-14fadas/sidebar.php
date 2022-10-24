@@ -21,7 +21,8 @@
             長崎大学生命医科学域<br>
             医療科学専攻 歯科麻酔学<br>
             〒852-8501 長崎県長崎市坂本1-7-1<br>
-            TEL：095-819-7714　FAX：095-819-7715<br>
+            TEL：095-819-7714<br>
+            FAX：095-819-7715<br>
             E-mail：<a href="mailto:nagasaki@51jdsa-14fadas.jp">nagasaki@51jdsa-14fadas.jp</a>
         </p>
     </div>

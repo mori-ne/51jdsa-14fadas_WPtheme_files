@@ -1,6 +1,6 @@
 <aside class="sidebar">
     <div class="bunnerarea">
-        <a href="http://51jdsa-14fadas.jp/">
+        <a href="/">
             <img src="<?php echo get_template_directory_uri(); ?>/img/51jdsa_banner.jpg" srcset="<?php echo get_template_directory_uri(); ?>/img/51jdsa_banner@2x.jpg" alt="51jdsa" width="260" height="80">
         </a>
     </div>
@@ -21,7 +21,8 @@
             Dental Anesthesiology,<br>
             Course of Medical and Dental Sciences, Nagasaki University<br>
             1-7-1, Sakamoto, Nagasaki City, Nagasaki<br>
-            TEL:095-819-7714 FAX:095-819-7715<br>
+            TEL:095-819-7714<br>
+            FAX:095-819-7715<br>
             E-mail:<a href="mailto:nagasaki@51jdsa-14fadas.jp">nagasaki@51jdsa-14fadas.jp</a>
         </p>
     </div>
