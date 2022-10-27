@@ -21,8 +21,8 @@
             Dental Anesthesiology,<br>
             Course of Medical and Dental Sciences, Nagasaki University<br>
             1-7-1, Sakamoto, Nagasaki City, Nagasaki<br>
-            TEL:095-819-7714<br>
-            FAX:095-819-7715<br>
+            TEL:+81-95-819-7714<br>
+            FAX:+81-95-819-7715<br>
             E-mail:<a href="mailto:nagasaki@51jdsa-14fadas.jp">nagasaki@51jdsa-14fadas.jp</a>
         </p>
     </div>
