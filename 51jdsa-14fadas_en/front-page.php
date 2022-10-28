@@ -37,12 +37,9 @@
                             <h3 class="h3en">Information</h3>
                             <div class="info_area">
                                 <ul>
-                                    <li>2022.00.00 <a href="#">●●●●●●●●●●●●●</a>The has been updated.</li>
-                                    <li>2022.00.00 <a href="#">●●●●●●●●●●●●●</a>The has been updated.</li>
-                                    <li>2022.00.00 <a href="#">●●●●●●●●●●●●●</a>The has been updated.</li>
-                                    <li>2022.00.00 <a href="#">●●●●●●●●●●●●●</a>The has been updated.</li>
-                                    <li>2022.00.00 <a href="#">●●●●●●●●●●●●●</a>The has been updated.</li>
-                                    <li>2022.00.00 <a href="#">●●●●●●●●●●●●●</a>The has been updated.</li>
+                                    <!-- <li>
+                                        2022.00.00 <a href="#">●●●●●●●●●●●●●</a>The has been updated.
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
