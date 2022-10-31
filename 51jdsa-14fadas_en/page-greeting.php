@@ -4,13 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- キャッシュ無効化 -->
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache">
-    <!-- インデックスしない -->
-    <meta name="robots" content="noindex" />
-
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,7 +55,7 @@
                                     Congress Chair<span class="name">Takao Ayuse</span>
                                 </div>
                                 <div class="profile_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile.jpg" srcset="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile@2x.jpg" alt="Congress Chair, Takuro Ayuse" width="120" height="150">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile.jpg" srcset="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile@2x.jpg" alt="Congress Chair, Takuro Ayuse" width="160" height="200">
                                 </div>
                             </div>
 

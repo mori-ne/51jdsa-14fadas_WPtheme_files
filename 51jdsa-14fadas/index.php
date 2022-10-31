@@ -4,13 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- キャッシュ無効化 -->
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache">
-    <!-- インデックスしない -->
-    <meta name="robots" content="noindex" />
-
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,15 +24,11 @@
                     <?php get_sidebar(); ?>
 
                     <main class="main">
-                        <img class="main_img" src="<?php echo get_template_directory_uri(); ?>/img/main_image.jpg" srcset="<?php echo get_template_directory_uri(); ?>/img/main_image@2x.jpg" alt="次の50年へ ～共感と信頼～" width="660" height="932">
+                        <img class="main_img" src="<?php echo get_template_directory_uri(); ?>/img/main_image.jpg" srcset="<?php echo get_template_directory_uri(); ?>/img/main_image@2x.jpg" alt="次の50年へ ～共感と信頼～" width="760" height="1075">
                         <div class="information">
                             <h3>インフォメーション</h3>
                             <div class="info_area">
-                                <ul>
-                                    <!-- <li>
-                                        2022.00.00 <a href="#">●●●●●●●●●●●●●</a>を更新しました。
-                                    </li> -->
-                                </ul>
+                                <?php include 'info_area.php'; ?>
                             </div>
                         </div>
                     </main>

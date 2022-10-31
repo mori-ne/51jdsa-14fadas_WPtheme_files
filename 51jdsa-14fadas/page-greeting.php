@@ -4,13 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- キャッシュ無効化 -->
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache">
-    <!-- インデックスしない -->
-    <meta name="robots" content="noindex" />
-
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,12 +47,13 @@
                                     <p class="tx_small">
                                         第14回アジア歯科麻酔学会連合学術大会（14th FADAS）
                                     </p>
+                                    <br>
                                     <p>
                                         会長<span class="name">鮎瀬　卓郎</span>
                                     </p>
                                 </div>
                                 <div class="profile_img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile.jpg" srcset="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile@2x.jpg" alt="鮎瀬 卓郎" width="120" height="150">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile.jpg" srcset="<?php echo get_template_directory_uri(); ?>/img/takuro_ayuse_cc_profile@2x.jpg" alt="鮎瀬 卓郎" width="160" height="200">
                                 </div>
                             </div>
 
@@ -74,7 +68,7 @@
                                     長崎は、2022年に新幹線が開通し、新しい長崎の始まりになります。西洋医学の発祥の地から、歯科麻酔が将来向かうべき方向を、久しぶりの現場に集える多幸感の中、皆様と議論する場にしたいと思います。会員の皆様のご期待に応えられる学術集会となるよう、学術集会実行委員会の委員と共に、独創的な発想で学会企画を練っております。新型コロナウィルス感染症の感染拡大は、変異株の影響もあり、依然として全世界の社会、経済に歴史的な影響を与えています。歯科麻酔の学術集会も、2020年、2021年には2回連続して現地開催のないWEB開催となりました。2020年に東京夏季オリンピック・パラリンピック、北京冬季オリンピック・パラリンピックも関係者の努力で、完全無観客での開催ではありましたが、大きな感動を人々の記憶に残して成功しました。しかし、人と人との顔を見ながら熱気を感じながらの基本的なコミュニケーションの大切さも再認識させられました。
                                 </p>
                                 <p>
-                                    歯科麻酔学会も、2年のWEB開催の経験を糧に、学術的な意見交換もWEB経由でも実効的に行えること、また各種委員会や会議は経費と時間を最大限節約して、多くの参加者が参集できる利点も確認されました。特に、最新の医療知識や技術を勉強したいと願っても、子育てや介護で都合がつかない医療者や、国内外の若手研究者で出張旅費が準備できない場合など、オンデマンドでの勉強がいかに効率的であるかも分かってきました。そこで2023年の学術総会は、25年振りに長崎での開催となるのを機会に、久しぶりに思う存分対面で語り合う場にしたいと思っています。
+                                    歯科麻酔学会も、2年のWEB開催の経験を糧に、学術的な意見交換もWEB経由でも実効的に行えること、また各種委員会や会議は経費と時間を最大限節約して、多くの参加者が参集できる利点も確認されました。特に、最新の医療知識や技術を勉強したいと願っても、子育てや介護で都合がつかない医療者や、国内外の若手研究者で出張旅費が準備できない場合など、オンデマンドでの勉強がいかに効率的であるかも分かってきましたが、2023年の学術総会は、25年振りに長崎での開催となるのを機会に、久しぶりに思う存分対面で語り合う場にしたいと思っています。
                                 </p>
                                 <p>
                                     是非、本学術集会に御参加いただき、次の時代を牽引する歯科麻酔医としての、責任と誇りを持って、最新の医学知識と医療技術を、仲間の元気なエネルギーをともにお持ち帰りいただければと願っております。

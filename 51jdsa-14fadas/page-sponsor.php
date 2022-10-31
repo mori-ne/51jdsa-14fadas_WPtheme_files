@@ -4,13 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- キャッシュ無効化 -->
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache">
-    <!-- インデックスしない -->
-    <meta name="robots" content="noindex" />
-
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,23 +36,23 @@
                                 <div class="sponsor">
                                     <p>
                                         第51回日本歯科麻酔学会総会では各種協賛の募集を行っております。<br>
-                                        募集要項（郵送）をご覧の上、各フォームよりお申込み下さい。<br>
-                                        受付完了後はメール（自動）が送信されます。<br>
-                                        もし受信できない場合は、事務局（<a href="mailto:info@51jdsa-14fadas.jp">info@51jdsa-14fadas.jp</a>）にご連絡下さい。<br>
+                                        募集要項は個別にご送付しますので、メールでお問い合わせ下さい。<br>
+                                        E-mail：<a href="mailto:nagasaki@51jdsa-14fadas.jp">nagasaki@51jdsa-14fadas.jp</a><br>
+                                        募集要項をご覧の上、各フォームよりお申込み下さい。
                                     </p>
                                     <table class="sponsor_table">
                                         <tbody>
                                             <tr>
                                                 <th>募集内容</th>
                                                 <th>申込フォーム</th>
-                                                <th>申込締切日<br>（202●年）</th>
+                                                <th>申込締切日<br>（2023年）</th>
                                             </tr>
                                             <tr>
                                                 <td>共催セミナー</td>
                                                 <td>
                                                     <a class="sponsor_table_btn" href="https://pro.form-mailer.jp/fms/c383d493270034" target="_blank" rel="noopener noreferrer">お申込みはこちらから</a>
                                                 </td>
-                                                <td>●月●日(●)</td>
+                                                <td>4月28日(金)</td>
                                             </tr>
                                             <tr>
                                                 <td>企業展示</td>
@@ -67,14 +60,21 @@
                                                     <a class="sponsor_table_btn" href="https://pro.form-mailer.jp/fms/843f4e9b270044" target="_blank" rel="noopener noreferrer">お申込みはこちらから</a>
 
                                                 </td>
-                                                <td>●月●日(●)</td>
+                                                <td>7月31日(月)</td>
                                             </tr>
                                             <tr>
                                                 <td>広告協賛</td>
                                                 <td>
                                                     <a class="sponsor_table_btn" href="https://pro.form-mailer.jp/fms/f6e8485c252500" target="_blank" rel="noopener noreferrer">お申込みはこちらから</a>
                                                 </td>
-                                                <td>●月●日(●)</td>
+                                                <td>4月28日(金)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>バナー広告</td>
+                                                <td>
+                                                    <a class="sponsor_table_btn" href="https://pro.form-mailer.jp/fms/e337175f252130" target="_blank">お申込みはこちらから</a>
+                                                </td>
+                                                <td>6月30日(金)</td>
                                             </tr>
                                             <tr>
                                                 <td>寄　付</td>
