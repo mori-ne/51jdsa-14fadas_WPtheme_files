@@ -28,7 +28,11 @@
                         <div class="information">
                             <h3>インフォメーション</h3>
                             <div class="info_area">
-                                <?php include 'info_area.php'; ?>
+                                <ul>
+                                    <!-- <li>
+                                        2022.00.00 <a href="#">●●●●●●●●●●●●●</a>を更新しました。
+                                    </li> -->
+                                </ul>
                             </div>
                         </div>
                     </main>
